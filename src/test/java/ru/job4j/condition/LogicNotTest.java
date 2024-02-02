@@ -120,7 +120,7 @@ class LogicNotTest {
 
     @Test
     void whenNotPositiveIsTrueThenAllIsTrue() {
-        int num = 3;
+        int num = -3;
         boolean result = LogicNot.evenOrNotPositive(num);
         assertThat(result).isTrue();
 
@@ -128,7 +128,7 @@ class LogicNotTest {
 
     @Test
     void whenEvenOrNotPositiveIsFalse() {
-        int num = -3;
+        int num = 3;
         boolean result = LogicNot.evenOrNotPositive(num);
         assertThat(result).isFalse();
     }
