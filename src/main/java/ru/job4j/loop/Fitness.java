@@ -7,7 +7,7 @@ public class Fitness {
             System.out.println(month);
             ivan *= 3;
             nik *= 2;
-            month += 1;
+            month++;
         }
         return month;
     }
