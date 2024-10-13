@@ -15,4 +15,3 @@ public class Fitness {
             return month;
         }
     }
-// Строку 5,6 добавил chatgpt
